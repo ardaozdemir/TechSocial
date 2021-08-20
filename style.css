@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header a img {
+    margin-left: 50px;
+    width: 230px;
+    margin-top: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    margin-top: 16px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+nav ul li i {
+    color: white;
+}
+
+.nav-logo {
+    border: 10px solid black;
+    border-radius: 100px;
+    border-width: 0px;
+    background: #0e62e4;
+}
+
+.nav-logo i:hover {
+    color: rgb(0, 183, 255);
+    ;
+}
+
+.search-bar {
+    width: 500px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#search-logo {
+    margin-right: 350px;
+}
+
+section {
+    background: #e2e4e7;
+    height: 1200px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.column {
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    background: white;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.side {
+    width: 20%;
+}
+
+.side img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ad{
+    border-top: 20px solid #e2e4e7;
+    padding: 10px;
+}
+
+.column h2{
+    border-bottom: 2px solid #e2e4e7;
+}
+
+.topics {
+    text-align: center;
+    padding: 15px;
+}
+
+.topics p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.topics p:hover{
+    background: #e2e4e7;
+
+}
+
+.topics i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa-angle-right{
+    float: right;
+}
+
+
+.center {
+    width: 45%;
+}
+
+.column h2 {
+    padding: 10px;
+}
+
+.trend{
+    background: #e2e4e7;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.trend i{
+    float: right;
+}
+
+.trend:hover{
+
+    background: #c9c9c9;
+}
+
+.trend-name{
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.post-number{
+    text-align: left;
+    margin: 10px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.create{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 90%;
+    font-size: 20px;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.options{
+
+    font-size: 30px;
+    color: #0e62e4;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.options i:hover{
+    color: rgb(0, 183, 255);
+}
+
+.send-post{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    width: 20%;
+    font-size: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    background: #0e62e4;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.send-post:hover{
+    background: rgb(0, 183, 255);
+}
+
+.content img{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.content p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    text-align: left;
+}
+.content i{
+    font-size: 30px;
+    color: #0e62e4;
+    float: left;
+    margin: 20px 3px 10px 20px;
+}
+
+.content i:hover{
+    color: rgb(0, 183, 255);
+}
+
+.read-more{
+    color: #0e62e4;
+}
+
+.read-more:hover{
+    color: rgb(0, 183, 255);
+}
+
+
+.send-comment{
+
+    margin: 15px 0 10px 20px;
+    font-size: 20px;
+    outline: none;
+    width: 60%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.comment-button{
+    float: right;
+    margin-right: 30px;
+}
+
+.profile{
+    border-top: 20px solid #e2e4e7;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 2px solid #e2e4e7;
+}
+
+.profile h3{
+    margin: 30px 15px 0 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.profile p{
+
+    margin: 30px 15px 0 0;
+    font-weight: lighter;
+    font-size: 15px;
+
+}
+
+.profile img{
+    width: 70px;
+    float: left;
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+}
+
+.follow{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 15%;
+    height:15%;
+    font-size: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    background: #0e62e4;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.follow:hover{
+    background-color: rgb(0, 183, 255);
+}
